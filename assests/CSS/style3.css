@@ -1,0 +1,59 @@
+/* Estilo geral do corpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo da seção de ajuda */
+section {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da seção */
+section h2 {
+  color: #2c3e50;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+/* Parágrafo de introdução */
+section p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Lista com links e ícones */
+section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section ul li {
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+/* Links */
+section a {
+  color: #1b73e8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+section a:hover {
+  color: #0c48a1;
+}
+
+/* E-mail */
+section strong {
+  color: #000;
+}
